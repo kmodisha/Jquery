@@ -1,0 +1,18 @@
+.S1 {
+    border-style: solid;
+    border-color: rgb(80, 165, 255);
+    border-width: 4px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.b
