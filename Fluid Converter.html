@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Converting Fluid measurements</title>
+
+    <link rel="stylesheet" href="Scripts/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="Scripts/Converter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <script src="Scripts/jquery-3.6.0.min.js">
+    </script>
+    <script src="Scripts/FluidConverter.js">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div data-role="page" class="S1">
+        <div id="" data-role=header class="header">Converting fluid measurements</div>
+        <div data-role=" content" class="m-3">
+            <label for="gallon">Enter the quantity in gallons:</label><br>
+            <input type='number' name='gallon' id='gallon' placeholder='gallons' min='0' max='100' class="form-control">
+            <br>
+            <button onclick="display();" class="btn btn-info">
+                Display
+            </button>
+            <br>
+            <table id="data">
+                <tr>
+                    <td>Quantity Entered:</td>
+                    <td id='quantityDisplay'>0</td>
+                    <td>gallons</td>
+                </tr>
+            </table>
+        </div>
+        <div data-role=footer class="footer">
+            <small>
+                Fluid quantity converter
+            </small>
+        </div>
+    </div>
+</body>
+
+</html>
